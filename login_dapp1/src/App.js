@@ -75,4 +75,12 @@ function App() {
   );
 }
 
+<button onclick="myFunction()">move to home page</button>
+
+
+function myFunction() {
+  location.replace("https://article-blocks-poy2.vercel.app/")
+}
+
+
 export default App;
